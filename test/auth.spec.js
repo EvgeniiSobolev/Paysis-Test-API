@@ -1,32 +1,38 @@
-import supertest from 'supertest';
 import {expect} from 'chai'
-import 'dotenv/config'
+import AuthHelper from '../helpers/auth.helper'
 
 describe('Authentication', function () {
-    it('Log in with valid credentials', function () {
-        supertest(process.env.BASE_URL)
-            .post('/auth')
-            .send({login: process.env.LOGIN, password: process.env.PASSWORD})
-            .end((err, res) => {
-                expect(res.statusCode).to.eq(200)
-                expect(res.body.token).not.to.be.undefined
-            })
+    const authHelper = new AuthHelper()
+
+    describe('Log in with valid credentials', function () {
+        let response
+
+        before(async function () {
+            response = await authHelper.logIn(process.env.LOGIN, process.env.PASSWORD)
+        })
+
+        it('Response status code is 200', function () {
+            expect(response.statusCode).to.eq(200)
+        })
+
+        it('Response body contains token', function () {
+            expect(response.body.token).not.to.be.undefined
+        })
     })
 
-    it('Log in with invalid credentials', function () {
-        supertest(process.env.BASE_URL)
-            .post('/auth')
-            .send({login: 'invalid', password: 'invalid'})
-            .end((err, res) => {
-                expect(res.statusCode).to.eq(404)
-                expect(res.body.message).to.eq('Wrong login or password.')
-            })
+    describe('Log in with incorrect credentials', function () {
+        let response
+
+        before(async function () {
+            response = await authHelper.logIn('123', '123')
+        })
+
+        it('Response status code is 404', function () {
+            expect(response.statusCode).to.eq(404)
+        })
+
+        it('Response body contains error message', function () {
+            expect(response.body.message).to.eq('Wrong login or password.')
+        })
     })
 })
-// .end((err, res) => {
-// })
-
-// const response = await supertest('https://paysis.herokuapp.com')
-//     .post('/auth')
-//     .send({login: 'adminius', password: 'supers3cret'})
-// expect(response.statusCode).to.eq(200)
