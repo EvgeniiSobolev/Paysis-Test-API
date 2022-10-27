@@ -7,7 +7,7 @@ describe('Transaction', function (){
     const defaultBalance = 1000
 
     describe('Create', function (){
-        describe.only('With valid data', function (){
+        describe('With valid data', function (){
             const userHelper = new UserHelper()
             const transactionHelper = new TransactionHelper()
             const amount = 100
