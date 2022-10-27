@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d643a170-185f-4f36-8af6-a1bc87e6d57b" name="Changes" comment="added .env.example">
-      <change afterPath="$PROJECT_DIR$/config/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/auth.helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/user.helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/user.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/transaction.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mocharc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.mocharc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel-external-helpers.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babel.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babel.ps1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/browser/progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/progress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/bdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/bdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/qunit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/qunit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/tdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/tdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/nodejs/parallel-buffered-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/nodejs/parallel-buffered-runner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json-stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json-stream.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/markdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/mocha.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/mocha.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/mocha.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/mocha.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/mocha.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/mocha.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/auth.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/auth.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.17.1",
-    "javascript.nodejs.core.library.typings.version": "16.11.64",
-    "last_opened_file_path": "C:/Users/sobol/WebstormProjects/pasv/Paysis-Test-API",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.mocha.mocha_node_package_dir": "C:/Users/sobol/WebstormProjects/pasv/Paysis-Test-API/node_modules/mocha",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.17.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.11.64&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sobol/WebstormProjects/pasv/Paysis-Test-API&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/Users/sobol/WebstormProjects/pasv/Paysis-Test-API/node_modules/mocha&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sobol\WebstormProjects\pasv\Paysis-Test-API" />
