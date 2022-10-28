@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d643a170-185f-4f36-8af6-a1bc87e6d57b" name="Changes" comment="added transaction.spec">
+    <list default="true" id="d643a170-185f-4f36-8af6-a1bc87e6d57b" name="Changes" comment="only removed from transactionSpec / describe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/transaction.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/transaction.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Secondary" />
+        <entry key="$PROJECT_DIR$" value="Hooks" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -253,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666842560607</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="only removed from transactionSpec / describe">
+      <created>1666911789813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666911789813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +298,7 @@
     <MESSAGE value="Just created" />
     <MESSAGE value="added .env.example" />
     <MESSAGE value="added transaction.spec" />
-    <option name="LAST_COMMIT_MESSAGE" value="added transaction.spec" />
+    <MESSAGE value="only removed from transactionSpec / describe" />
+    <option name="LAST_COMMIT_MESSAGE" value="only removed from transactionSpec / describe" />
   </component>
 </project>
