@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d643a170-185f-4f36-8af6-a1bc87e6d57b" name="Changes" comment="only removed from transactionSpec / describe">
+    <list default="true" id="d643a170-185f-4f36-8af6-a1bc87e6d57b" name="Changes" comment="Adding transaction test completed2">
+      <change afterPath="$PROJECT_DIR$/helpers/config.helper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mocharc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.mocharc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/setup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/transaction.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/transaction.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Hooks" />
+        <entry key="$PROJECT_DIR$" value="Transactions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -262,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666911789813</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding transaction test completed">
+      <created>1666919648917</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666919648917</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding transaction test completed2">
+      <created>1666919806731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666919806731</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +315,8 @@
     <MESSAGE value="added .env.example" />
     <MESSAGE value="added transaction.spec" />
     <MESSAGE value="only removed from transactionSpec / describe" />
-    <option name="LAST_COMMIT_MESSAGE" value="only removed from transactionSpec / describe" />
+    <MESSAGE value="Adding transaction test completed" />
+    <MESSAGE value="Adding transaction test completed2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding transaction test completed2" />
   </component>
 </project>
