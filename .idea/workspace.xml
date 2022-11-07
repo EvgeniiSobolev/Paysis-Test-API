@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d643a170-185f-4f36-8af6-a1bc87e6d57b" name="Changes" comment="only removed from transactionSpec / describe">
+    <list default="true" id="d643a170-185f-4f36-8af6-a1bc87e6d57b" name="Changes" comment="The project is complete">
+      <change afterPath="$PROJECT_DIR$/config/responses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/setup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.19.1.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/cjs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/cjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ungap/promise-all-settled/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/transaction.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/transaction.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Hooks" />
+        <entry key="$PROJECT_DIR$" value="Config" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +70,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.17.1&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.11.64&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sobol/WebstormProjects/pasv/Paysis-Test-API&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sobol/WebstormProjects/pasv/paysis&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,7 +89,7 @@
       <recent name="C:\Users\admin\WebstormProjects\Paysis-Test-API" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="Mocha.Transaction">
     <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -85,7 +100,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Authentication" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="Transaction" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
@@ -94,43 +109,9 @@
       <ui>bdd</ui>
       <extra-mocha-options>--require @babel/register</extra-mocha-options>
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/auth.spec.js</test-file>
+      <test-file>$PROJECT_DIR$/test/transaction.spec.js</test-file>
       <test-names>
-        <name value="Authentication" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Authentication.Log in with incorrect credentials.Response body contains error message" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options>--require @babel/register</extra-mocha-options>
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/auth.spec.js</test-file>
-      <test-names>
-        <name value="Authentication" />
-        <name value="Log in with incorrect credentials" />
-        <name value="Response body contains error message" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Authentication.Log in with incorrect credentials.Response status code is 404" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options>--require @babel/register</extra-mocha-options>
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/auth.spec.js</test-file>
-      <test-names>
-        <name value="Authentication" />
-        <name value="Log in with incorrect credentials" />
-        <name value="Response status code is 404" />
+        <name value="Transaction" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -165,6 +146,38 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="User.Delete" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--require @babel/register</extra-mocha-options>
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/user.spec.js</test-file>
+      <test-names>
+        <name value="User" />
+        <name value="Delete" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="User.Get" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--require @babel/register</extra-mocha-options>
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/user.spec.js</test-file>
+      <test-names>
+        <name value="User" />
+        <name value="Get" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="mocha-javascript-test-runner">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -178,20 +191,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Mocha.Transaction" />
+      <item itemvalue="Mocha.User.Delete" />
+      <item itemvalue="Mocha.User.Get" />
       <item itemvalue="Mocha.User.Create" />
       <item itemvalue="Mocha.User" />
-      <item itemvalue="Mocha.Authentication.Log in with incorrect credentials.Response body contains error message" />
-      <item itemvalue="Mocha.Authentication.Log in with incorrect credentials.Response status code is 404" />
-      <item itemvalue="Mocha.Authentication" />
       <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.User.Create" />
-        <item itemvalue="Mocha.Authentication" />
-        <item itemvalue="Mocha.Authentication.Log in with incorrect credentials.Response status code is 404" />
-        <item itemvalue="Mocha.Authentication.Log in with incorrect credentials.Response body contains error message" />
+        <item itemvalue="Mocha.Transaction" />
         <item itemvalue="Mocha.User" />
+        <item itemvalue="Mocha.User.Get" />
+        <item itemvalue="Mocha.User.Delete" />
+        <item itemvalue="Mocha.User.Create" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +232,9 @@
       <workItem from="1666561488883" duration="9968000" />
       <workItem from="1666652003521" duration="327000" />
       <workItem from="1666652387152" duration="8350000" />
+      <workItem from="1667048357188" duration="3839000" />
+      <workItem from="1667521797019" duration="2519000" />
+      <workItem from="1667762711621" duration="9601000" />
     </task>
     <task id="LOCAL-00001" summary="Just created">
       <created>1665263049358</created>
@@ -262,7 +278,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666911789813</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding transaction test completed">
+      <created>1666919648917</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666919648917</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding transaction test completed2">
+      <created>1666919806731</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666919806731</updated>
+    </task>
+    <task id="LOCAL-00009" summary="The project is complete">
+      <created>1666922128464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666922128464</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +336,9 @@
     <MESSAGE value="added .env.example" />
     <MESSAGE value="added transaction.spec" />
     <MESSAGE value="only removed from transactionSpec / describe" />
-    <option name="LAST_COMMIT_MESSAGE" value="only removed from transactionSpec / describe" />
+    <MESSAGE value="Adding transaction test completed" />
+    <MESSAGE value="Adding transaction test completed2" />
+    <MESSAGE value="The project is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="The project is complete" />
   </component>
 </project>
