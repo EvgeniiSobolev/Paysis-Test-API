@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "valid": {
+      "token": "590537ee-2013-494c-ba64-e0bf2ee8c28d"
+    },
+    "incorrect": {
+      "message": "Wrong login or password."
+    }
+  },
+  "users": {
+    "create": {
+      "id": "9e7ce41e-0cf5-4f48-8760-d3c9d4584936",
+      "amount": 1000
+    },
+    "delete": {
+      "existing": {
+        "message": "User deleted."
+      },
+      "nonExisting": {
+        "message": "No user found."
+      }
+    },
+    "get": {
+      "all": [
+        {
+          "id": "9e7ce41e-0cf5-4f48-8760-d3c9d4584941",
+          "amount": 1000
+        },
+        {
+          "id": "9e7ce41e-0cf5-4f48-8760-d3c9d4584942",
+          "amount": 1000
+        }
+      ]
+    }
+  },
+  "transactions": {
+    "create": {
+      "invalid": {
+        "message": "Amount must be above zero."
+      }
+    }
+  },
+  "config": {
+  }
+}

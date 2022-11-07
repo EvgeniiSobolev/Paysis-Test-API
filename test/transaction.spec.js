@@ -59,7 +59,7 @@ describe('Transaction', function () {
             })
         })
 
-        describe.skip('With invalid amount', function () {
+        describe('With invalid amount', function () {
             const userHelper = new UserHelper()
             const transactionHelper = new TransactionHelper()
             const amount = -100
